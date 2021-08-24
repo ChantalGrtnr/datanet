@@ -23,3 +23,13 @@ install.packages("tidygraph")
 install.packages("ggraph")
 install.packages("widyr")
 ```
+
+## Grundbegriffe der Netzwerkanalyse
+Elemente von Netzwerken: 
+- Knoten (Uni-, Bi-, Multimodal)
+- Kanten (Uni-, Multiplex; gewichtet, gerichtet)
+
+Maße zur Analyse von Netzwerken: 
+- Größe (Wie viele Knoten hat das Netzwerk?) 
+- Dichte (Wie viele Kanten sind realsiert?)
+
