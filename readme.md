@@ -2,8 +2,8 @@
 
 Dieses Repositorium enthält Übungsmaterialen zum Workshop. 
 
-## Vorbereitung
-Zur Vorbereitung laden Sie sich bitte zunächst das Repositorium herunter, indem Sie auf Code -> Download ZIP klicken. Und installieren Sie bitte folgende Software:
+## 0 Vorbereitung
+Zur Vorbereitung installieren Sie bitte folgende Software. Laden Sie sich bitte kurz vor dem Workshop auch das Repositorium herunter, indem Sie auf Code -> Download ZIP klicken. 
 
 **Gephi**
 ist ein Programm, das für die Darstellung und Analyse umfangreicher Netzwerkdaten entwickelt wird. Laden Sie es von der Projektseite herunter und installieren Sie es auf Ihrem Computer: https://gephi.org/users/download/. Gephi ist in der Programmiergespräche Java geschrieben, deshalb benötigen Sie falls auf Ihrem Computer noch nicht vorhanden die Java Laufzeitumgebung, achten Sie darauf die 64Bit-Version herunterzuladen: https://www.java.com/de/download/.
@@ -23,3 +23,48 @@ install.packages("tidygraph")
 install.packages("ggraph")
 install.packages("widyr")
 ```
+
+Die Installation kann einige Zeit in Anspruch nehmen. 
+
+## Ordner und Materialien
+data: In diesem Ordner sind alle Dateien für die Netzwerkanalyse abgelegt:
+- People.csv: Ausgangsdatensatz aus dem Knowledge-Graph Theographic. Quelle: https://github.com/robertrouse/theographic-bible-metadata
+- person_verses_edges.csv: Kantenliste (wird selbst erstellt)
+- person_verses_nodes.csv: Knotenliste (wird selbst erstellt)
+
+scripts: Ordner mit allen R-Skripten für die Datenaufbereitung und -analyse
+- 1_aufbereitung.R: Aufbereitung des Datensatzes zur Knoten- und Kantenliste
+- 2_analyse.R: Analyse des Netzwerkes
+
+## 1 Grundbegriffe der Netzwerkanalyse
+Elemente von Netzwerken: 
+- Knoten (Uni-, Bi-, Multimodal)
+- Kanten (Uni-, Multiplex; gewichtet, gerichtet)
+
+Maße zur Analyse von Netzwerken: 
+- Größe (Wie viele Knoten hat das Netzwerk?) 
+- Dichte (Wie viele Kanten sind realsiert?)
+
+*to be continued*
+
+## 2 Netzwerkvisualisierung 
+
+*to be added*
+
+## 3 Datenerhebung 
+
+*to be added*
+
+## 4 Einführung in R 
+
+*to be added*
+
+## 5 Netzwerkanalyse mit R
+
+*to be added*
+
+## 6 WikiData
+
+*to be added*
+
+
