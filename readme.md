@@ -23,6 +23,15 @@ install.packages("tidygraph")
 install.packages("ggraph")
 install.packages("widyr")
 ```
+## Ordner und Materialien
+data: In diesem Ordner sind alle Dateien für die Netzwerkanalyse abgelegt:
+- People.csv: Ausgangsdatensatz aus dem Knowledge-Graph Theographic. Quelle: https://github.com/robertrouse/theographic-bible-metadata
+- person_verses_edges.csv: Kantenliste (wird selbst erstellt)
+- person_verses_nodes.csv: Knotenliste (wird selbst erstellt)
+
+scripts: Ordner mit allen R-Skripten für die Datenaufbereitung und -analyse
+- 1_aufbereitung.R: Aufbereitung des Datensatzes zur Knoten- und Kantenliste
+- 2_analyse.R: Analyse des Netzwerkes
 
 ## 1 Grundbegriffe der Netzwerkanalyse
 Elemente von Netzwerken: 
