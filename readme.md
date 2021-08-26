@@ -23,6 +23,9 @@ install.packages("tidygraph")
 install.packages("ggraph")
 install.packages("widyr")
 ```
+
+Die Installation kann einige Zeit in Anspruch nehmen. 
+
 ## Ordner und Materialien
 data: In diesem Ordner sind alle Dateien für die Netzwerkanalyse abgelegt:
 - People.csv: Ausgangsdatensatz aus dem Knowledge-Graph Theographic. Quelle: https://github.com/robertrouse/theographic-bible-metadata
