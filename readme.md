@@ -33,26 +33,26 @@ Maße zur Analyse von Netzwerken:
 - Größe (Wie viele Knoten hat das Netzwerk?) 
 - Dichte (Wie viele Kanten sind realsiert?)
 
-**to be continued**
+*to be continued*
 
 ## 2 Netzwerkvisualisierung 
 
-**to be added**
+*to be added*
 
 ## 3 Datenerhebung 
 
-**to be added**
+*to be added*
 
 ## 4 Einführung in R 
 
-**to be added**
+*to be added*
 
 ## 5 Netzwerkanalyse mit R
 
-**to be added**
+*to be added*
 
 ## 6 WikiData
 
-**to be added**
+*to be added*
 
 
