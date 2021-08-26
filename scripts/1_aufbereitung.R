@@ -1,4 +1,3 @@
-
 #
 # Libraries laden ----
 #
@@ -10,7 +9,7 @@ library(widyr)
 # Daten einlesen ----
 #
 
-persons <- read_csv("theographic/People.csv")
+persons <- read_csv("../data/People.csv")
 
 
 # Kanteliste erstellen: 
@@ -36,15 +35,16 @@ person_nodes <- person_verses %>%
 
 person_nodes <- person_nodes %>% 
   filter(!is.na(verses)) %>% 
-  select(Label=displayTitle,verses, `Disambiguation (temp)`, gender) %>% 
+  select(id, label=displayTitle, verses, `Disambiguation (temp)`, gender) %>% 
   mutate(matt = str_detect(verses, "Matt.*")) %>% 
   mutate(luke = str_detect(verses, "Luke.*")) %>% 
   mutate(mark = str_detect(verses, "Mark.*")) %>% 
   mutate(john = str_detect(verses, "John.*")) %>% 
-  mutate(gospel = matt + luke + mark + john)  
+  mutate(gospel = matt + luke + mark + john) %>% 
+  distinct()
 
 
 
 # Knoten- und Kantenliste abspeichern
-write_csv(person_verses, "person_verses_edges.csv")
-write_csv(person_nodes, "person_verses_nodes.csv")
+write_csv(person_verses, "../data/person_verses_edges.csv")
+write_csv(person_nodes, "../data/person_verses_nodes.csv")
