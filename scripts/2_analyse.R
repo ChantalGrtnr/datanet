@@ -6,19 +6,20 @@ library(tidyverse)
 library(tidygraph)
 library(ggraph)
 library(widyr)
+library(igraph)
 
 #
 # Daten einlesen ----
 #
 
-person_verses <- read_csv("../data/person_verses_edges.csv", col_types = cols(.default = "c"))
-person_nodes <- read_csv("../data/person_verses_nodes.csv", col_types = cols(.default = "c"))
+person_edges <- read_csv("../data/person_edges.csv", col_types = cols(.default = "c"))
+person_nodes <- read_csv("../data/person_nodes.csv", col_types = cols(.default = "c"))
 
 #
 # Graph-Objekt erstellen ----
 #
 
-persons_graph <- tbl_graph(person_nodes, person_verses)
+persons_graph <- tbl_graph(person_nodes, person_edges)
 
 # Graph-Objekt mit Eigenschaften anzeigen lassen
 print(persons_graph)
@@ -57,7 +58,8 @@ person_nodes <- persons_graph %>%
 # - slice_head(): behält nur die top-n Zeilen
 person_nodes %>% 
   arrange(-degree) %>%
-  slice_head(n=5)
+  slice_head(n=5) %>% 
+  select(id, label, degree)
 
 
 

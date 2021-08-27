@@ -9,8 +9,8 @@ library(tidyverse)
 # Daten einlesen ----
 #
 
-person_verses <- read_csv("../data/person_verses_edges.csv", col_types = cols(.default = "c"))
-person_nodes <- read_csv("../data/person_verses_nodes.csv", col_types = cols(.default = "c"))
+person_edges <- read_csv("../data/person_edges.csv", col_types = cols(.default = "c"))
+person_nodes <- read_csv("../data/person_nodes.csv", col_types = cols(.default = "c"))
 
 #
 # Daten aufbereiten ----
@@ -20,7 +20,7 @@ person_nodes <- read_csv("../data/person_verses_nodes.csv", col_types = cols(.de
 
 god_id <- filter(person_nodes, label == "God")
 
-ego_edges <- person_verses %>% 
+ego_edges <- person_edges %>% 
   filter(source == god_id$id | target == god_id$id)
   
 ego_nodes <- ego_edges %>% 
@@ -32,6 +32,7 @@ ego_nodes <- ego_edges %>%
 # Kanten umformatieren für visNetwork
 ego_edges <- ego_edges %>% 
   rename(from = source, to = target)
+
 
 #
 # Netzwerkgrafik erstellen ----

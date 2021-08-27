@@ -16,18 +16,18 @@ persons <- read_csv("../data/People.csv")
 # - je Vers eine Zeile 
 # - auszählen von den gemeinsam in Versen auftretenden Personen
 # - filtern: Nur Verbindungen beibehalten, die mindestens 2 mal auftreten
-person_verses <- persons %>% 
+person_edges <- persons %>% 
   filter(!is.na(verses)) %>% 
   separate_rows(verses,sep=",")
 
-person_verses <- person_verses %>% 
+person_edges <- person_edges %>% 
   pairwise_count(personID,verses) %>% 
   filter(n > 1) %>% 
   rename(source=item1,target=item2)
 
 
 # Knotenliste erstellen aus der Kantenliste
-person_nodes <- person_verses %>% 
+person_nodes <- person_edges %>% 
   pivot_longer(cols=c("source", "target"), values_to="id") %>% 
   distinct(id) %>% 
   #mutate(id = as.character(id)) %>% 
@@ -46,5 +46,5 @@ person_nodes <- person_nodes %>%
 
 
 # Knoten- und Kantenliste abspeichern
-write_csv(person_verses, "../data/person_verses_edges.csv")
-write_csv(person_nodes, "../data/person_verses_nodes.csv")
+write_csv(person_edges, "../data/person_edges.csv")
+write_csv(person_nodes, "../data/person_nodes.csv")
