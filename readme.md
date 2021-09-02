@@ -44,13 +44,15 @@ Elemente von Netzwerken:
 - *Knoten*: z.B. Akteure, Konzepte (Uni-, Bi-, Multimodal)
 - *Kanten*: Beziehungen zwischen den Knoten (Uni-, Multiplex; gewichtet, gerichtet)
 
-Ebenen von Netzwerken: *Gesamtnetzwerke*, *Teilnetzwerke* (u.a. Diade, Triade, Cliquen, Komponenten, Egonetzwerke)
+Ebenen von Netzwerken: *Gesamtnetzwerke*, *Teilnetzwerke* (u.a. Diade, Triade, Cliquen, Komponenten, Egonetzwerke), *einzelne Knoten und Kanten*
 
 Maße zur Analyse von Netzwerken: 
 - *Größe* (Wie viele Knoten hat das Netzwerk?) 
 - *Dichte* (Wie viele Kanten sind realsiert?)
-- *Durchschnittliche Entfernung* (Wie viele Schritte sind die Knoten voneinander weg?)
+- *Reziprozität* (Wie viele Beziehungen sind wechselseitig?)
 - *Komponenten* (Wie viele einzelne Teilnetzwerke umfasst das Gesamtnetzwerk?)
+- *Durchschnittliche Entfernung* (Wie viele Schritte sind die Knoten voneinander weg?)
+- *Zentralität* (Wie hierarchisch ist das Netzwerk?)
 
 Maße zur Analyse von zentralen Knoten:
 - *Degree* (Wie viele direkte Beziehungen hat ein Knoten?)
@@ -59,7 +61,20 @@ Maße zur Analyse von zentralen Knoten:
 
 ## 2 Netzwerkvisualisierung 
 
-*to be added*
+In Gephi: Open Source Software für die Analyse und Visualisierung von Graphen und Netzwerken.
+
+Zu Beginn: Neues Projekt erstellen 
+
+Daten einlesen im Arbeitsbereich "Data Laboratory" 
+Unter ```Import Spreadsheet``` Knoten- und Kantenliste je separat einlesen und durch Dialogfenster klicken. Wichtig: am Ende "Append to existing Workspace" ankreuzen
+
+Netzwerk gestalten im Arbeitsbereich "Overview"
+- Layout: Gestaltungslayout, z.B. "ForceAtlas 2" auswählen und auf ```Run``` klicken. 
+- Statistics: Maße zur Netzwerkanalyse durch ```Run```ermitteln.
+- Grafische Gestaltung: unter "Appearance", z.B. Knoten einfärben und in ihrer Größe ändern. 
+- Beschriftung: am unteren Rand Label einblenden und in ihrer Größe verändern
+
+Netzwerkgrafik abspeichern im Arbeitsbereich "Preview"
 
 ## 3 Datenerhebung 
 
