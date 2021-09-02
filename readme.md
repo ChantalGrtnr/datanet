@@ -47,17 +47,17 @@ Elemente von Netzwerken:
 Ebenen von Netzwerken: *Gesamtnetzwerke*, *Teilnetzwerke* (u.a. Diade, Triade, Cliquen, Komponenten, Egonetzwerke), *einzelne Knoten und Kanten*
 
 Maße zur Analyse von Netzwerken: 
-- *Größe* (Wie viele Knoten hat das Netzwerk?) 
-- *Dichte* (Wie viele Kanten sind realsiert?)
-- *Reziprozität* (Wie viele Beziehungen sind wechselseitig?)
-- *Komponenten* (Wie viele einzelne Teilnetzwerke umfasst das Gesamtnetzwerk?)
-- *Durchschnittliche Entfernung* (Wie viele Schritte sind die Knoten voneinander weg?)
-- *Zentralität* (Wie hierarchisch ist das Netzwerk?)
+- *Größe*: Wie viele Knoten hat das Netzwerk?
+- *Dichte*: Wie viele Kanten sind realsiert?
+- *Reziprozität*: Wie viele Beziehungen sind wechselseitig?
+- *Komponenten*: Wie viele einzelne Teilnetzwerke umfasst das Gesamtnetzwerk?
+- *Durchschnittliche Entfernung*: Wie viele Schritte sind die Knoten voneinander weg?
+- *Zentralität*: Wie hierarchisch ist das Netzwerk?
 
 Maße zur Analyse von zentralen Knoten:
-- *Degree* (Wie viele direkte Beziehungen hat ein Knoten?)
-- *Betweenness* (Auf wie vielen kürzesten Verbindungen liegt ein Knoten?)
-- *Closeness* (Wie nah ist ein Knoten zu allen aderen Knoten im Netzwerk?)
+- *Degree*: Wie viele direkte Beziehungen hat ein Knoten?
+- *Betweenness*: Auf wie vielen kürzesten Verbindungen liegt ein Knoten?
+- *Closeness*: Wie nah ist ein Knoten zu allen aderen Knoten im Netzwerk?
 
 ## 2 Netzwerkvisualisierung 
 
@@ -65,10 +65,10 @@ In Gephi: Open Source Software für die Analyse und Visualisierung von Graphen u
 
 Zu Beginn: Neues Projekt erstellen 
 
-Daten einlesen im Arbeitsbereich "Data Laboratory" 
+Daten einlesen im Arbeitsbereich "Data Laboratory":
 Unter ```Import Spreadsheet``` Knoten- und Kantenliste je separat einlesen und durch Dialogfenster klicken. Wichtig: am Ende "Append to existing Workspace" ankreuzen
 
-Netzwerk gestalten im Arbeitsbereich "Overview"
+Netzwerk gestalten im Arbeitsbereich "Overview":
 - Layout: Gestaltungslayout, z.B. "ForceAtlas 2" auswählen und auf ```Run``` klicken. 
 - Statistics: Maße zur Netzwerkanalyse durch ```Run```ermitteln.
 - Grafische Gestaltung: unter "Appearance", z.B. Knoten einfärben und in ihrer Größe ändern. 
