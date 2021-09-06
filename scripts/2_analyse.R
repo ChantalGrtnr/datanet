@@ -19,7 +19,8 @@ person_nodes <- read_csv("../data/person_nodes.csv", col_types = cols(.default =
 # Graph-Objekt erstellen ----
 #
 
-persons_graph <- tbl_graph(person_nodes, person_edges)
+persons_graph <- tbl_graph(person_nodes, person_edges, directed = FALSE)
+
 
 # Graph-Objekt mit Eigenschaften anzeigen lassen
 print(persons_graph)
@@ -46,7 +47,7 @@ no.clusters(persons_graph)
 # Zentralitätsmaß Degree ermitteln
 
 persons_graph <- persons_graph %>% 
-  mutate(degree = centrality_degree())
+  mutate(degree = centrality_degree()) %>% 
 
 # neue Nodes-Tabelle mit den ermittelten Zentralitätsmaßen 
 person_nodes <- persons_graph %>%
@@ -62,4 +63,7 @@ person_nodes %>%
   select(id, label, degree)
 
 
-
+# Übung: Wer ist der zentralste Akteur in der Bibel?
+# - Zentralste Akteure nach den Zentralitätsmaßen 
+#   Betweenness und Closeness ermitteln
+# - Output vergleichen
