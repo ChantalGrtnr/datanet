@@ -3,7 +3,7 @@
 ## Theoretische Grundlagen
 - Was versteht ihr unter einem Netzwerk?
 
-[[/images/beispielnetzwerk.png|Beispielnetzwerk]]
+![Beispielnetzwerk](/images/beispielnetzwerk.png)
 
 - Wie kann man das Netzwerk beschreiben? Welche Eigenschaften hat das Netzwerk? 
 - Was sind wichtige Knoten im Netzwerk?
