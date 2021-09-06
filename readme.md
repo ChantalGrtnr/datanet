@@ -63,18 +63,18 @@ Maße zur Analyse von zentralen Knoten:
 
 In Gephi: Open Source Software für die Analyse und Visualisierung von Graphen und Netzwerken.
 
-Zu Beginn: Neues Projekt erstellen 
+1. Zu Beginn: Neues Projekt erstellen 
 
-Daten einlesen im Arbeitsbereich "Data Laboratory":
+2. Daten einlesen im Arbeitsbereich "Data Laboratory":
 Unter ```Import Spreadsheet``` Knoten- und Kantenliste je separat einlesen und durch Dialogfenster klicken. Wichtig: am Ende "Append to existing Workspace" ankreuzen
 
-Netzwerk gestalten im Arbeitsbereich "Overview":
+3. Netzwerk gestalten im Arbeitsbereich "Overview":
 - Layout: Gestaltungslayout, z.B. "ForceAtlas 2" auswählen und auf ```Run``` klicken. 
 - Statistics: Maße zur Netzwerkanalyse durch ```Run```ermitteln.
 - Grafische Gestaltung: unter "Appearance", z.B. Knoten einfärben und in ihrer Größe ändern. 
 - Beschriftung: am unteren Rand Label einblenden und in ihrer Größe verändern
 
-Netzwerkgrafik abspeichern im Arbeitsbereich "Preview"
+4. Netzwerkgrafik abspeichern im Arbeitsbereich "Preview"
 
 ## 3 Datenerhebung 
 
