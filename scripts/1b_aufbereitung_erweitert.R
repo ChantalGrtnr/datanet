@@ -4,7 +4,7 @@
 
 library(tidyverse)
 library(widyr)
-library(writexl)
+
 #
 # Daten einlesen ----
 #
