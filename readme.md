@@ -86,7 +86,30 @@ Unter ```Import Spreadsheet``` Knoten- und Kantenliste je separat einlesen und d
 
 ## 4 Einführung in R 
 
-*to be added*
+- Oberfläche von R
+- Projekte und Dateien
+- Befehle ausführen mit Strg+Enter / Command + Enter
+- Packages laden
+- Tidyverse
+- Hilfefunktion (F1)
+- Datensätze laden (read_csv) und abspeichern (write_csv)
+- Dataframes und Tibbles
+- Zuweisungsoperator und Pipe
+
+
+Befehle:
+- select
+- filter
+- mutate
+- library
+- read_csv
+- separate_rows
+- pairwise_count
+- pivot_longer
+- distinct
+- write_csv
+
+Siehe auch https://www.statmethods.net/
 
 ## 5 Netzwerkanalyse mit R
 
@@ -104,6 +127,7 @@ Befehle zum Ermitteln von Zentralität:
 
 ## 6 WikiData
 
-*to be added*
+- https://www.wikidata.org/wiki
+- https://www.wikidata.org/wiki/Wikidata:Lists/List_of_biblical_characters
 
 
