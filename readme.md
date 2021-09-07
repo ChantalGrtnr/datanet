@@ -59,7 +59,15 @@ Maße zur Analyse von zentralen Knoten:
 - *Betweenness*: Auf wie vielen kürzesten Verbindungen liegt ein Knoten?
 - *Closeness*: Wie nah ist ein Knoten zu allen aderen Knoten im Netzwerk?
 
-## 2 Netzwerkvisualisierung 
+
+## 2 Datenerhebung 
+
+- Selbst erheben zum Beispiel über Webcrawling, Social-Media-APIs, Wikidata mit Facepager: https://github.com/strohne/Facepager
+- Sekundärdaten: zum Beispiel fertige Netzwerkdatensätze für Gephi: https://github.com/gephi/gephi/wiki/Datasets
+- Gute Anlaufstelle: https://github.com/briatte/awesome-network-analysis
+
+
+## 3 Netzwerkvisualisierung 
 
 In Gephi: Open Source Software für die Analyse und Visualisierung von Graphen und Netzwerken.
 
@@ -75,13 +83,6 @@ Unter ```Import Spreadsheet``` Knoten- und Kantenliste je separat einlesen und d
 - Beschriftung: am unteren Rand Label einblenden und in ihrer Größe verändern
 
 4. Netzwerkgrafik abspeichern im Arbeitsbereich "Preview"
-
-## 3 Datenerhebung 
-
-- Selbst erheben zum Beispiel über Webcrawling, Social-Media-APIs, Wikidata mit Facepager: https://github.com/strohne/Facepager
-- Sekundärdaten: zum Beispiel fertige Netzwerkdatensätze für Gephi: https://github.com/gephi/gephi/wiki/Datasets
-- Gute Anlaufstelle: https://github.com/briatte/awesome-network-analysis
-
 
 ## 4 Einführung in R 
 
