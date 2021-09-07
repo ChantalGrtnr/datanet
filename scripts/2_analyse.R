@@ -4,7 +4,6 @@
 
 library(tidyverse)
 library(tidygraph)
-library(ggraph)
 library(widyr)
 library(igraph)
 
@@ -47,7 +46,7 @@ no.clusters(persons_graph)
 # Zentralitätsmaß Degree ermitteln
 
 persons_graph <- persons_graph %>% 
-  mutate(degree = centrality_degree()) %>% 
+  mutate(degree = centrality_degree()) 
 
 # neue Nodes-Tabelle mit den ermittelten Zentralitätsmaßen 
 person_nodes <- persons_graph %>%
@@ -58,12 +57,11 @@ person_nodes <- persons_graph %>%
 # - arrange(): sortiert die angegebene Variable. Absteigend durch "-"
 # - slice_head(): behält nur die top-n Zeilen
 person_nodes %>% 
-  arrange(-degree) %>%
-  slice_head(n=5) %>% 
-  select(id, label, degree)
+  arrange(-degree)
 
 
 # Übung: Wer ist der:die zentralste Akteur:in in der Bibel?
 # - Zentralste Akteur:innen nach den Zentralitätsmaßen 
 #   Betweenness und Closeness ermitteln (siehe Hilfe zu centrality_degree)
 # - Output vergleichen
+

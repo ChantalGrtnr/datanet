@@ -38,6 +38,7 @@ ego_edges <- ego_edges %>%
 # Netzwerkgrafik erstellen ----
 # Formatierungen, z.B.: 
 # - Knoten stabilisieren über "fixed"
+# - gravitationalConstant = -20000
 visNetwork(ego_nodes, ego_edges, width = "100%")%>% 
   visConfigure(enabled = T)
 
