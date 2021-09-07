@@ -127,6 +127,7 @@ Befehle zum Ermitteln von Zentralität:
 
 ## 6 WikiData
 
-*to be added*
+- https://www.wikidata.org/wiki
+- https://www.wikidata.org/wiki/Wikidata:Lists/List_of_biblical_characters
 
 
