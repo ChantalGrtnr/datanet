@@ -18,6 +18,7 @@
 - Berechnet Kennwerte (z.B. Dichte) zur Beschreibung des Netzwerks!
 - Ermittelt die zentralen Akteure in der Bibel (Degree, Betweenness und Closeness)!
 
+## Beispielnetzwerk
 
 ![Beispielnetzwerk](/images/beispielnetzwerk.png)
 
