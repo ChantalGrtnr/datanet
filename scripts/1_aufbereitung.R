@@ -33,13 +33,11 @@ person_edges <- person_edges %>%
 person_nodes <- person_edges %>% 
   pivot_longer(cols=c("source", "target"), values_to="id") %>% 
   distinct(id) %>% 
-  #mutate(id = as.character(id)) %>% 
   left_join(persons, by= c("id"="personID"))
 
 # Spalten umbenennen und
 # kennzeichnen, in welchem Evangelium eine Person auftritt
 person_nodes <- person_nodes %>% 
-  filter(!is.na(verses)) %>% 
   select(id, label=displayTitle, verses, `Disambiguation (temp)`, gender) %>% 
   mutate(matt = str_detect(verses, "Matt.*")) %>% 
   mutate(luke = str_detect(verses, "Luke.*")) %>% 
@@ -47,7 +45,6 @@ person_nodes <- person_nodes %>%
   mutate(john = str_detect(verses, "John.*")) %>% 
   mutate(gospel = matt + luke + mark + john) %>% 
   distinct()
-
 
 
 # Knoten- und Kantenliste abspeichern
