@@ -10,7 +10,7 @@
 (Quelle: D. Krackhardt, Assessing the Political Landscape: Structure, Cognition, and Power in Organizations. Administrative Science Quarterly 35, 2, 1990, 342-369).
 
 ## Datenerhebung
-- Formt das bimodale in eine unimodales Netzwerk um: https://www.dropbox.com/scl/fi/qf6e6klq2uxbtt9yyt18g/bimodal_beispiel.xlsx?dl=0&rlkey=enoomjxadhkom6lza2ncro0rj
+- Formt das [bimodale in eine unimodales Netzwerk um](https://nextcloud.uni-greifswald.de/index.php/s/WwQHSp497noBzy4)
 
 
 ## Inhaltliche Übung in R
