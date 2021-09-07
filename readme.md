@@ -86,7 +86,28 @@ Unter ```Import Spreadsheet``` Knoten- und Kantenliste je separat einlesen und d
 
 ## 4 Einführung in R 
 
-*to be added*
+- Oberfläche von R
+- Projekte und Dateien
+- Befehle ausführen mit Strg+Enter / Command + Enter
+- Packages laden
+- Tidyverse
+- Hilfefunktion (F1)
+- Datensätze laden (read_csv) und abspeichern (write_csv)
+- Dataframes und Tibbles
+- Zuweisungsoperator und Pipe
+
+
+Befehle:
+- library
+- read_csv
+- select
+- separate_rows
+- pairwise_count
+- pivot_longer
+- distinct
+- write_csv
+
+Siehe auch https://www.statmethods.net/
 
 ## 5 Netzwerkanalyse mit R
 
