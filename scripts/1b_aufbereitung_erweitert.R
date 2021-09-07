@@ -20,7 +20,7 @@ person_edges <- persons %>%
 # - pairwise_count: auszählen von den gemeinsam in Versen auftretenden Personen
 # - filter: Nur Verbindungen beibehalten, die mindestens 2 mal auftreten
 person_edges <- person_edges %>% 
-  pairwise_count(personID,verses) %>% 
+  pairwise_count(personID,verses,upper=F) %>% 
   filter(n > 1) %>% 
   rename(source=item1,target=item2)
 
