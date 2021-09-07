@@ -98,9 +98,11 @@ Unter ```Import Spreadsheet``` Knoten- und Kantenliste je separat einlesen und d
 
 
 Befehle:
+- select
+- filter
+- mutate
 - library
 - read_csv
-- select
 - separate_rows
 - pairwise_count
 - pivot_longer
