@@ -63,7 +63,7 @@ person_nodes %>%
   select(id, label, degree)
 
 
-# Übung: Wer ist der zentralste Akteur in der Bibel?
-# - Zentralste Akteure nach den Zentralitätsmaßen 
-#   Betweenness und Closeness ermitteln
+# Übung: Wer ist der:die zentralste Akteur:in in der Bibel?
+# - Zentralste Akteur:innen nach den Zentralitätsmaßen 
+#   Betweenness und Closeness ermitteln (siehe Hilfe zu centrality_degree)
 # - Output vergleichen
