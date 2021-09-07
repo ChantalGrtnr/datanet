@@ -39,6 +39,11 @@ scripts: Ordner mit allen R-Skripten für die Datenaufbereitung und -analyse
 - 2_analyse.R: Analyse des Netzwerkes
 - 3_visualisierung.R Visualisierung eines Egonetzwerkes in R 
 
+docs: Ordner mit Texten zum Nachlesen
+- Einführung in R
+- Einführung in die Netzwerkanalyse
+- Folien des Workshops
+
 ## 1 Grundbegriffe der Netzwerkanalyse
 Elemente von Netzwerken: 
 - *Knoten*: z.B. Akteure, Konzepte (Uni-, Bi-, Multimodal)
