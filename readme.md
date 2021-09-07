@@ -78,7 +78,10 @@ Unter ```Import Spreadsheet``` Knoten- und Kantenliste je separat einlesen und d
 
 ## 3 Datenerhebung 
 
-*to be added*
+- Selbst erheben zum Beispiel über Webcrawling, Social-Media-APIs, Wikidata mit Facepager: https://github.com/strohne/Facepager
+- Sekundärdaten: zum Beispiel fertige Netzwerkdatensätze für Gephi: https://github.com/gephi/gephi/wiki/Datasets
+- Gute Anlaufstelle: https://github.com/briatte/awesome-network-analysis
+
 
 ## 4 Einführung in R 
 
