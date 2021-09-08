@@ -99,20 +99,21 @@ Unter ```Import Spreadsheet``` Knoten- und Kantenliste je separat einlesen und d
 - Hilfefunktion (F1)
 - Datensätze laden (read_csv) und abspeichern (write_csv)
 - Dataframes und Tibbles
-- Zuweisungsoperator und Pipe
-
+- Zuweisungsoperator ```<-``` und Pipe ```%>%```
 
 Befehle:
-- select
-- filter
-- mutate
-- library
-- read_csv
-- separate_rows
-- pairwise_count
-- pivot_longer
-- distinct
-- write_csv
+|Befehl|Funktion|Beispiel| 
+|------|--------|--------|
+| ```select()```| Wählt Spalte(n) in einem Tibble aus |```select(tabelle, spaltenname1, spaltenname2)```|
+| ```filter()```| Wählt Zeilen in einem Tibble aus. Es wird eine Bedingung formuliert, nach der Fälle in einer eine Spalte gefiltert werden |```filter(spalte == bedingung)```|
+| ```mutate()```| Erstellt eine neue Spalte |```mutate(neuespalte = neuerwert)```| 
+|```library()```| Lädt eine Bibliothek |```library(tidyverse)```|
+|```read_csv()```| Ließt eine lokale CSV-Datei als Datensatz in R ein  |```read_csv("namederdatei.csv")```|
+|```separate_rows()```| Teilt Zeilen mit mehrere Werten entlang eines angegebenen Seperators so auf, dass jeder Wert in einer eigenen Zeile steht. Z. B. würde die Zelle mit dem Wert "#workshop, #netzwerkanalyse, #gephi" in drei Zeilen mit je einem Hashtag pro Zeile aufgeteilt werden |```separate_rows(hashtags, sep=",")```|
+|```pairwise_count()```| Zählt aus, wie oft zwei Items in einem Feature vorkommen, z. B. wie oft zwei Bibelfiguren im gleichen Vers genannt werden | ```pairwise_count(spaltemititems, spaltemitfeatures)```|
+|```pivot_longer()```| Wandelt einen Datensatz vom Wide- ins Long-Format um. Das heißt, mehrere Spalten können zu einer Spalte zusammengefasst werden. Die Fälle werden dann untereinander sortiert |```pivot_lover(cols = c("altespalte1", "altespalte2"), values_to = "neuespalte"```|
+|```distinct()```| Filtert Duplikate in Spalten heraus |```distinct(spaltenname, .keep_all=T)```|
+|```write_csv()```| Speichert einen Datensatz als CSV-Datei lokal ab |```write_csv(datei, "namefürdatei.csv")```| 
 
 Siehe auch https://www.statmethods.net/
 
