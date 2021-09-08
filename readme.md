@@ -39,6 +39,11 @@ scripts: Ordner mit allen R-Skripten für die Datenaufbereitung und -analyse
 - 2_analyse.R: Analyse des Netzwerkes
 - 3_visualisierung.R Visualisierung eines Egonetzwerkes in R 
 
+docs: Ordner mit Texten zum Nachlesen
+- Einführung in R
+- Einführung in die Netzwerkanalyse
+- Folien des Workshops
+
 ## 1 Grundbegriffe der Netzwerkanalyse
 Elemente von Netzwerken: 
 - *Knoten*: z.B. Akteure, Konzepte (Uni-, Bi-, Multimodal)
@@ -131,3 +136,8 @@ Befehle zum Ermitteln von Zentralität:
 - https://www.wikidata.org/wiki/Wikidata:Lists/List_of_biblical_characters
 
 
+# Weiterführende Literatur
+
+- Wasserman, S., & Faust, K. (1994). Social network analysis. Methods and applications. Cambridge: Cambridge Univ. Press.
+- Jansen, Dorothea (2003): Einführung in die Netzwerkanalyse. Grundlagen, Methoden, Forschungsbeispiele. 2., erweiterte Auflage. Opladen: Leske+Budrich
+- Freeman, Linton C. (1979): Centrality in Social Networks. Conceptual Clarification. In: Social Net-works, 1 (3), S. 215-239. 
