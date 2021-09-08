@@ -136,3 +136,7 @@ Befehle zum Ermitteln von Zentralität:
 - https://www.wikidata.org/wiki/Wikidata:Lists/List_of_biblical_characters
 
 
+# Weiterführende Literatur
+
+- Wasserman, S., & Faust, K. (1994). Social network analysis. Methods and applications. Cambridge: Cambridge Univ. Press.
+- Jansen, Dorothea (2003): Einführung in die Netzwerkanalyse. Grundlagen, Methoden, Forschungsbeispiele. 2., erweiterte Auflage. Opladen: Leske+Budrich
