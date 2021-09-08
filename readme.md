@@ -140,3 +140,4 @@ Befehle zum Ermitteln von Zentralität:
 
 - Wasserman, S., & Faust, K. (1994). Social network analysis. Methods and applications. Cambridge: Cambridge Univ. Press.
 - Jansen, Dorothea (2003): Einführung in die Netzwerkanalyse. Grundlagen, Methoden, Forschungsbeispiele. 2., erweiterte Auflage. Opladen: Leske+Budrich
+- Freeman, Linton C. (1979): Centrality in Social Networks. Conceptual Clarification. In: Social Net-works, 1 (3), S. 215-239. 
