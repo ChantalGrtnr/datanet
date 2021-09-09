@@ -91,15 +91,15 @@ Unter ```Import Spreadsheet``` Knoten- und Kantenliste je separat einlesen und d
 
 ## 4 Einführung in R 
 
-- Oberfläche von R
-- Projekte und Dateien
-- Befehle ausführen mit Strg+Enter / Command + Enter
-- Packages laden
-- Tidyverse
-- Hilfefunktion (F1)
-- Datensätze laden (read_csv) und abspeichern (write_csv)
-- Dataframes und Tibbles
-- Zuweisungsoperator ```<-``` und Pipe ```%>%```
+Goldene Regeln:
+1. Immer in einem Projekt arbeiten!
+2. Skripte kommentieren (`#`) und strukturieren (`----`). 
+3. Mit der Tastatur arbeiten: Befehle ausführen mit Strg+Enter / Command + Enter!
+4. Alle Packages am Anfang laden!
+5. Zuweisungsoperator ```<-``` und Pipe ```%>%``` kombinieren.
+6. Datensätze immer mit Funktionen aus dem TidyVerse einlesen (z.B. `read_csv` und `write_csv`)!
+7. Die Regeln für Tibbles beachten: eine Zeile = ein Fall, eine Spalte = eine Eigenschaft!
+8. Die Hilfefunktion (F1) benutzen!
 
 Befehle:
 |Befehl|Funktion|Beispiel| 
