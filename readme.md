@@ -44,6 +44,8 @@ docs: Ordner mit Texten zum Nachlesen
 - Einführung in die Netzwerkanalyse
 - Folien des Workshops
 
+docker: Zum Starten einer Umgebung, um R mit den bereits installierten Packages laufen zu lassen. Danke @f-krueger!
+
 ## 1 Grundbegriffe der Netzwerkanalyse
 Elemente von Netzwerken: 
 - *Knoten*: z.B. Akteure, Konzepte (Uni-, Bi-, Multimodal)
